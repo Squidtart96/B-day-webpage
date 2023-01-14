@@ -1,0 +1,75 @@
+#wrapper {
+  background: url("Images/ElricAlchemist.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  color: white;
+  text-shadow: 0 0 4px;
+  font-size: 40px;
+}
+@font-face {
+  font-family: shinAkibapunx;
+  src: url("Images/shinAkibapunx.ttf");
+}
+@font-face {
+  font-family: Windpower;
+  src: url("Images/Windpower.otf");
+}
+h1 {
+  font-family: shinAkibapunx;
+}
+#box {
+  font-family: Windpower;
+  font-size: 20px;
+  color: white;
+}
+.words {
+  background-color: black;
+  color: white;
+  text-shadow: 0 0 2px;
+  text-align: center;
+}
+.age {
+  background-color: black;
+  color: white;
+  text-shadow: 0 0 2px;
+  text-align: center;
+}
+.gemini {
+  background-color: black;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 2px;
+}
+@font-face {
+  font-family: shinAkibapunx;
+  src: url("Images/shinAkibapunx.ttf");
+}
+.happy {
+  font-family: shinAkibapunx;
+  color: white;
+  text-shadow: 0 0 2px;
+}
+h4 {
+  text-align: center;
+}
+.friend {
+  width: 100px;
+  border: 4px solid black;
+}
+.gift-image {
+  width: 350px;
+  height: 300px;
+  background-size: cover;
+  border: 5px solid black;
+  margin: 0 auto;
+  background-image: url("Images/present.jpg");
+}
+.gift-image:hover {
+  background-image: url("Images/narutothumbsup.gif");
+}
